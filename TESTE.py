@@ -14,8 +14,8 @@ def conversion_rate(conversions, visitors):
     return (conversions / visitors) * 100
 
 
-def lift(cra, crb):
-    return ((crb - cra) / cra) * 100
+def lift(cra1, crb):
+    return ((crb - cra) / cra1) * 100
 
 
 def std_err(cr, visitors):
